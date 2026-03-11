@@ -1,16 +1,126 @@
-# React + Vite
+# 👥 Customer Management Frontend
+This is a Customer Management System (Frontend) built with React.js, designed to help businesses manage and track their customers efficiently.
+The project focuses on:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- ✔️ Adding, editing, and deleting customer information
+- ✔️ Viewing customer details in a clean dashboard
+- ✔️ Responsive design for desktop and mobile
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+👤 Customer Management
+- Add new customers
+- Edit existing customer data
+- Delete customers
+- View detailed customer information
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📊 Dashboard
+- Display customer statistics
+- Search and filter functionality
 
-## Expanding the ESLint configuration
+📱 Responsive
+- Optimized for desktop, tablet, and mobile screens
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌐 Live Demo
+
+👉 **[View Live Project](https://customer-management-sooty.vercel.app/)**
+
+---
+
+### 🛠️ Technologies Used
+
+- React
+- JavaScript (ES6+)
+- CSS / CSS Modules
+- HTML5
+- Vercel – Deployment platform
+
+---
+
+## 📂 Project Structure
+
+```
+node_modules/      # Installed dependencies
+public/            # Static assets (images, icons)
+src/               # Main source code
+├─ components/     # Reusable UI components (Navbar, Table, Forms)
+├─ pages/          # Application pages (Home, Customers, Dashboard)
+├─ store/          # State management (Context/Redux)
+├─ lib/            # Helper functions / API calls
+.gitignore
+package.json
+package-lock.json
+README.md
+```
+Key folders explanation:
+
+- components/ → Reusable UI components like CustomerCard, Modal, Navbar
+- pages/ → Main app pages: Dashboard, Customer List, Customer Detail
+- store/ → State management logic
+- lib/ → Utility functions and API calls
+- public/ → Static assets such as icons, logos, and images
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the repository
+```
+git clone https://github.com/Mostafa-eskander/customer-frontend.git
+```
+2️⃣ Navigate to project folder
+```
+cd customer-frontend
+```
+3️⃣ Install dependencies
+```
+npm install
+```
+4️⃣ Run the development server
+```
+npm start
+```
+Open in browser:
+```
+http://localhost:3000
+```
+
+---
+
+### 🌐 Deployment
+
+This project is deployed using Vercel.
+To deploy your own version:
+```
+npm run build
+```
+Then upload the Next.js folder to Vercel.
+
+---
+
+### 🎯 Future Improvements
+
+- Add authentication and roles (Admin/User)
+- Integrate backend API for persistent data
+- Add export/import customer CSV functionality
+- Enhance dashboard with charts and analytics
+
+---
+
+#### 👨‍💻 Author
+
+Mostafa Mahmoud
+- [GitHub: ](https://github.com/mostafa-eskander)
+
+---
+
+## 📄 License
+
+Open-source — free to use and modify 🛠️
+
